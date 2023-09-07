@@ -1,5 +1,5 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Poppins:wght@400;600;700&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Poppins:wght@100;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Poppins:wght@400;600;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Poppins:wght@100;400;500;600&display=swap'); */
 :root{
     --header-height: 3rem;
 
@@ -290,6 +290,7 @@ img{
     transition: .3s;
     margin-left: 8rem;
     margin-top: 2rem;
+    border: none;
 }
 
 .form-button:hover{
@@ -441,6 +442,7 @@ img{
 .send_description{
     text-align: center;
     margin-bottom: var(--mb-4);
+    margin-left: 13%;
 }
 
 .send_direction{
