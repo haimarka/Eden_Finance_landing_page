@@ -3,167 +3,214 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Eden finance </title>
-    <link rel="icon" type="images/f-icon" href="./Media/logo.jpg" />
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Eden finance</title>
     <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 <body>
-    <a href="#" class="scrolltop show-scroll" id="scroll-top">
-        <i class='bx bxs-up-arrow-alt scrolltop_icon'></i>
-    </a>
-        <header class="l-header scroll-header" id="header">
-            <nav class="nav bd-container">
-                <a href="#" class="nav_logo">Eden finance</a>
-                <div class="nav_menu" id="nav-menu">
-                    <ul class="nav_list">
-                        <li class="nav_item"><a href="#contact" class="nav_link">יצירת קשר</a></li>
-                        <li class="nav_item"><a href="#decoration" class="nav_link">ממליצים</a></li>
-                        <li class="nav_item"><a href="#share" class="nav_link">התוכנית</a></li>
-                        <li class="nav_item"><a href="#home" class="nav_link active-link">קצת עליי</a></li>
+    
+    <nav class="sidebar close">
+        <header>
+            <div class="image-text">
+                <span class="image">
+                    <img src="./Media/eden-finance-logo.png" alt="logo">
+                </span>
 
-                        <li><i class='bx bx-toggle-left change-theme' id="theme-button"></i></li>
-                    </ul>
-                </div>
-                <div class="nav_toggle" id="nav-toggle">
-                    <i class='bx bx-grid-alt'></i>
-                </div>
-            </nav>
-        </header>
-            <main class="l-main">
-                <section class="home" id="home">
-                    <div class="home_container bd-container bd-grid">
-                        <div class="home_img">
-                            <img src="./Media/eden_logo.jpg" alt="">
-                        </div>
-
-                        <div class="home_data">
-                            <h1 class="home_title">עדן פיננסים</h1>
-                            <p class="home_description">
-                                צמחיית ארץ ישראל היא שם כולל לצמחים הגדלים בר ברחבי הארץ, מלבד צמחי תרבות הגדלים בזכות פעולת אדם.[1]. צמחיית הארץ כוללת כ-2,700 מינים המתחלקים ל-130 משפחות, מתוכם 264 מינים הוגדרו כצמחים מוגנים על פי חוק.
-                                הצומח בארץ מתאפיין בגיוון רב עקב ריבוי אזורי האקלים השונים של ארץ ישראל. החל מההאזור האירנו-טורני המאפיין את צפון ישראל וכלה באקלים המדברי של הנגב. צורות הצומח הנפוצות בארץ ישראל הם החורש הים-תיכוני, הבתה והגריגה.
-                            </p>
-                        </div>
-                    </div>
-                </section>
-
-                <section class="share section bd-container" id="share">
-                    <div class="share_container bd-grid">
-                        <div class="share_data">
-                            <h2 class="section-title-center">על התוכנית</h2>
-                            <p class="share_description">
-                                     אם אתם מרגישים שאתם יכולים הרבה יותר, מכניסים סכום יפה אבל זה עדיין לא מספיק לכל החלומות שלכם.
-                                    במילים פשוטות - אתם רוצים עוד כסף, ככה כמו שזה כי אין במה להתבייש.
-                                    הגעתם למקום הנכון, אני אעזור לכם צעד אחרי צעד להגשים את המטרות והחלומות שלכם דרך מסחר והשקעות בשוק ההון.
-                                    נבנה ביחד תכניות השקעה שתניב לכם כסף ותדאג לכם לעתיד נעשה עסקאות ממוקדות שיתנו לכם הבנה שהכסף כן יכול לעבוד עבורכם ולא להיפך.
-                                    כי בסוף כל ניצחון דורש הכנה 💪🏼
-
-                                    - נבין איפה אתם היום ולאן אתם רוצים להגיע
-                                    - נבנה מפה פרקטית ופשוטה של איך מגדילים את ההון שלנו ובאיזה נכסים נרצה להתמקד.
-                                    - שהכל ברור מול העניים נצא לדרך ביחד - אני ואתם.
-                            </p>
-                        </div>
-
-                        <div class="share_img">
-                            <img src="https://cdn.pixabay.com/photo/2020/03/03/07/45/planning-4897792_1280.jpg" alt="">
-                        </div>
-                    </div>
-                </section>
-                
-                <section class="decoration section bd-container" id="decoration">
-                    <h2 id="recommended-title" class="section-title">ממליצים</h2>
-                    <div class="decoration_container bd-grid">
-                        
-                        <div class="decoration_data">
-                            <img src="./Media/Recommended_img_3.jpg" class="decoration_img"><br>
-                            <!-- decoration_title -->
-                            <a href="#" class="button button-link">4,210₪</a>
-                        </div>
-                        
-                        <div class="decoration_data">
-                            <img src="./Media/Recommended_img_4.jpg" alt="" class="decoration_img"><br>
-                            
-                            <a href="#" class="button button-link">15,180₪</a>
-                        </div>
-
-                        <div class="decoration_data">
-                            <img src="./Media/Recommended_img_5.jpg" alt="" class="decoration_img"><br>
-                            
-                            <a href="#" class="button button-link">3,000₪</a>
-                        </div>
-                        
-                        <div class="decoration_container bd-grid"></div>
-                            <div class="decoration_data_video">
-                                <video id="video_container_one" muted autoplay width="320" height="240" controls>
-                                    <source src="./Media/Recommended_video_1.mp4" type="video/mp4">
-                                </video>
-                            </div><br>
-
-                            <div class="decoration_data_video">
-                                <video id="video_container_two" muted autoplay width="320" height="240" controls>
-                                    <source src="./Media/Recommended_video_2.mp4" type="video/mp4">
-                                </video>
-                            </div>
-                        </div>
-
-                    </div>
-                </section>
-
-                <section class="send section" id="contact">
-                    <div class="send_container bd-container bd-grid">
-                        <div class="send_content">
-                            <h2 class="section-title-center send_title">? נצא לדרך</h2>
-                            <p class="send_description">
-                                טיפה פרטים, ואחזור אלייך הכי מהר שאוכל
-                            </p>
-                            <form action="https://formsubmit.co/haimarka1@gmail.com" method="POST">
-                                <input type="text" name="_honey" style="display: none;">
-                                <input type="hidden" name="_template" value="table">
-                                <input type="hidden" name="_captcha" value="false">
-                                <!-- <input type="hidden" name="_next" value="https://golan-test.com/thanksMessage.html"> -->
-
-                                <div class="send_direction">
-                                    <input name="שם&nbsp;מלא" type="text" placeholder="שם מלא" class="send_input">
-                                </div>
-
-                                <div class="send_direction">
-                                    <input name="פלאפון" type="number" placeholder="    טלפון נייד" class="send_input">
-                                </div>
-
-                                <div class="send_direction">
-                                    <input name="אימייל" type="text" placeholder="מייל" class="send_input">
-                                </div>
-
-                                <button type="submit" class="form-button">send</button>
-                            </form>
-                        </div>
-
-                        <div class="send_img">
-                            <img src="./Media/eden-finance-logo.png" alt="">
-                        </div>
-                    </div>
-                </section>
-            </main>
-        <footer class="footer section">
-            <div class="footer_container bd-container bd-grid"><br>
-                <div class="footer_content">
-                    <h3 class="footer_title">יצירת קשר</h3>
-                    <ul>
-                        <li><a href="#" class="footer_link">פלא : 0526122936</a></li>
-                        <li><a href="#" class="footer_link">haimarka1@gmail.com : מייל</a></li>
-                        <li><a href="#" class="footer_link"> : מיקום</a></li>
-                    </ul>
-                </div>
-                <div class="footer_content">
-                    <h3 class="footer_title">Social</h3>
-                    <a href="https://www.facebook.com/profile.php?id=100000878793337" class="footer_social"><i class='bx bxl-facebook-circle' ></i></a>
-                    <a href="https://www.instagram.com/edenhen_/" class="footer_social"><i class='bx bxl-instagram-alt' ></i></a>
-                    <a href="https://wa.me/972504422095?text=%D7%94%D7%99%D7%99%20%D7%9E%D7%94%20%D7%94%D7%9E%D7%A6%D7%91%20%D7%A2%D7%93%D7%9F%20%3F" class="footer_social"><i class='bx bxl-whatsapp' ></i></a>
+                <div class="text header-text">
+                    <span class="name">Eden finance</span>
                 </div>
             </div>
-            <p class="footer_copy">&#169; 2023 HaimArkaCode. All rights reserved</p>
-        </footer>
+
+            <i class='bx bx-chevron-right toggle'></i>
+        </header>
+
+        <div class="menu-bar">
+            <div class="menu">
+
+                <li class="search-box">
+                    <i class='bx bx-search icons'></i>
+                        <input id="text-to-search" onchange="search()" type="text" placeholder="search">
+                </li>
+                <ul class="menu-links">
+                    <li class="nav-link">
+                        <a href="#first-section">
+                            <i class='bx bx-body icons' ></i>
+                            <span class="text nav-text">קצת עליי</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#second-section">
+                            <i class='bx bx-book icons' ></i>
+                            <span class="text nav-text">על התוכנית</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#therd-section">
+                            <i class='bx bx-happy-alt icons' ></i>
+                            <span class="text nav-text">ממליצים</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#five-section">
+                            <i class='bx bx-edit-alt icons' ></i>
+                            <span class="text nav-text">צור קשר</span>
+                        </a>
+                    </li>
+                </ul><br>
+                <div class="social-media">
+                    <i class='bx bxl-facebook-circle'></i>
+                    <i class='bx bxl-instagram-alt' ></i>
+                    <i class='bx bxl-whatsapp' ></i>
+                </div>
+            </div>
+               
+            <!-- <div class="bottom-content">
+                <li class="nav-link">
+                    <a href="#">
+                        <i class='bx bx-log-out icons' ></i>
+                        <span class="text nav-text">log out</span>
+                    </a>
+                </li> -->
+
+                <li class="mode">
+                        <div class="moon-sun">
+                            <i class='bx bx-moon icons moon' ></i>
+                            <i class='bx bx-sun icons sun' ></i>
+                        </div>
+                        <span class="mode-text text">Dark Mode</span>
+
+                        <div class="toggle-swith">
+                            <span class="swith"></span>
+                        </div>
+                </li>
+            </div>
+        </div>
+    </nav>
+
+    <section class="first-section" id="first-section">
+        <div class="first-header">Eden finance</div>
+        <div class="first-content">
+            <img class="first-img" src="./Media/eden_logo.jpg" alt="Eden Hen">
+            <p id="paragraph_one">
+                צמחיית ארץ ישראל היא שם כולל לצמחים הגדלים בר ברחבי הארץ, מלבד צמחי תרבות הגדלים בזכות פעולת אדם.[1]. צמחיית הארץ כוללת כ-2,700 מינים המתחלקים ל-130 משפחות, מתוכם 264 מינים הוגדרו כצמחים מוגנים על פי חוק.
+                הצומח בארץ מתאפיין בגיוון רב עקב ריבוי אזורי האקלים השונים של ארץ ישראל. החל מההאזור האירנו-טורני המאפיין את צפון ישראל וכלה באקלים המדברי של הנגב. צורות הצומח הנפוצות בארץ ישראל הם החורש הים-תיכוני, הבתה והגריגה
+            </p>
+        </div>
+    </section>
+
+    <section class="second-section" id="second-section">
+        <!-- <div class="icons-container">
+            <img id="first-icon" src="https://cdn.pixabay.com/photo/2016/11/10/06/03/bitcoin-1813545_1280.jpg" alt="animation icon">
+            <img id="second-icon" src="https://cdn.pixabay.com/photo/2016/11/10/06/03/bitcoin-1813545_1280.jpg" alt="animation icon">
+            <img id="therd-icon" src="https://cdn.pixabay.com/photo/2016/11/10/06/03/bitcoin-1813545_1280.jpg" alt="animation icon">
+            <img id="four-icon" src="https://cdn.pixabay.com/photo/2016/11/10/06/03/bitcoin-1813545_1280.jpg" alt="animation icon">
+        </div> -->
+        <div class="second-content">
+            <h3 class="second-header">על התוכנית</h3>
+            <p id="paragraph_two">
+                אם אתם מרגישים שאתם יכולים הרבה יותר, מכניסים סכום יפה אבל זה עדיין לא מספיק לכל החלומות שלכם.
+               במילים פשוטות - אתם רוצים עוד כסף, ככה כמו שזה כי אין במה להתבייש.
+               הגעתם למקום הנכון, אני אעזור לכם צעד אחרי צעד להגשים את המטרות והחלומות שלכם דרך מסחר והשקעות בשוק ההון.
+               נבנה ביחד תכניות השקעה שתניב לכם כסף ותדאג לכם לעתיד נעשה עסקאות ממוקדות שיתנו לכם הבנה שהכסף כן יכול לעבוד עבורכם ולא להיפך.
+               כי בסוף כל ניצחון דורש הכנה 💪🏼
+
+               - נבין איפה אתם היום ולאן אתם רוצים להגיע
+               - נבנה מפה פרקטית ופשוטה של איך מגדילים את ההון שלנו ובאיזה נכסים נרצה להתמקד.
+               - שהכל ברור מול העניים נצא לדרך ביחד - אני ואתם
+       </p><br>
+       <img src="./Media/plan.jpg" alt="">
+        </div>
+    </section><br><br>
+    
+    <section class="therd-section" id="therd-section">
+        <div class="therd-content">
+            <h3 class="therd-header">ממליצים</h3>
+            <!-- <video class="first-videos" muted autoplay width="320" height="240" controls>
+                <source src="./Media/Recommended_video_1.mp4" type="video/mp4">
+            </video>
+
+            <video class="first-videos" muted autoplay width="320" height="240" controls>
+                <source src="./Media/Recommended_video_2.mp4" type="video/mp4">
+            </video>  
+
+            <video class="first-videos" muted autoplay width="320" height="240" controls>
+                <source src="./Media/Recommended_video_1.mp4" type="video/mp4">
+            </video> 
+
+            <video class="last-video" muted autoplay width="320" height="240" controls>
+                <source src="./Media/Recommended_video_2.mp4" type="video/mp4">
+            </video>
+
+            <video muted autoplay width="320" height="240" controls>
+                <source src="./Media/Recommended_video_1.mp4" type="video/mp4">
+            </video>
+
+            <video muted autoplay width="320" height="240" controls>
+                <source src="./Media/Recommended_video_2.mp4" type="video/mp4">
+            </video> -->
+
+            <video muted autoplay width="320" height="240" controls>
+                <source src="./Media/Recommended_video_1.mp4" type="video/mp4">
+            </video>
+
+            <video muted autoplay width="320" height="240" controls>
+                <source src="./Media/Recommended_video_2.mp4" type="video/mp4">
+            </video>
+        </div>
+    </section><br><br>
+
+    <section class="four-section">
+        <div class="slider-container">
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide"><img src="./Media/Recommended_img_3.jpg" alt="Recommended image"></div>
+                  <div class="swiper-slide"><img src="./Media/Recommended_img_4.jpg" alt="Recommended image"></div>
+                  <div class="swiper-slide"><img src="./Media/Recommended_img_5.jpg" alt="Recommended image"></div>
+                  
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+              
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              </div>
+        </div>
+    </section>
+
+    <section class="five-section" id="five-section">
+        <div class="five-content">
+            <h2>אם בא לשמוע לשמוע עוד</h2>
+            <p>
+                תשאירו את הפרטים ואני דואג לחזור אליכם
+            </p><br>
+            <form action="https://formsubmit.co/haimarka1@gmail.com" method="POST">
+                <input type="text" name="_honey" style="display: none;">
+                <input type="hidden" name="_template" value="table">
+                <input type="hidden" name="_captcha" value="false">
+                <!-- <input type="hidden" name="_next" value="https://golan-test.com/thanksMessage.html"> -->
+
+                <div>
+                    <input class="send_input" name="שם&nbsp;מלא" type="text" placeholder="שם מלא" class="send_input">
+                </div>
+
+                <div>
+                    <input class="send_input" name="פלאפון" type="number" placeholder="    טלפון נייד" class="send_input">
+                </div>
+
+                <div>
+                    <input class="send_input" name="אימייל" type="text" placeholder="מייל" class="send_input">
+                </div><br>
+
+                <button class="form-button" type="submit">send</button>
+            </form>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 </body>
-<script src="https://unpkg.com/scrollreveal"></script>
 <script src="./main.js"></script>
 </html>
